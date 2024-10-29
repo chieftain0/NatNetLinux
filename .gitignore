@@ -501,18 +501,6 @@ local.properties
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
 
-##### Qt
-# C++ objects and libs
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
 
 # Qt-es
 object_script.*.Release
@@ -962,20 +950,9 @@ _deps
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
 # Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
@@ -1004,17 +981,6 @@ _deps
 *.gch
 *.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
 # Executables
 *.exe
